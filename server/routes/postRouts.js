@@ -1,6 +1,7 @@
 const express = require('express');
 const post = require('../models/Post');
 const router = express.Router();
+const Category = require('../models/Category');
 
 // GET all blog posts
 router.get("/", async(req, res) => {
